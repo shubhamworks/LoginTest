@@ -87,9 +87,9 @@ class LoginScreen extends Component {
   LoginWithGoogleAsync = async() => {
       try {
         const result = await Google.logInAsync({
-          androidClientId: '870218586757-0lng49r1m2nhls93hcpq13vqbtfu1o2q.apps.googleusercontent.com',
+          androidClientId: '',
           // behavior: 'web',
-          iosClientId: '870218586757-qsj28dq0meuj69sdqtfqa2cnkqksg5iu.apps.googleusercontent.com',
+          iosClientId: '',
           scopes: ['profile', 'email'],
         });
     
